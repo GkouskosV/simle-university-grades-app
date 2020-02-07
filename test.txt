@@ -1,3 +1,0 @@
-This is the text file
-
-Now it should be modified!
