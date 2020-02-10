@@ -1,6 +1,7 @@
 # Auto generated files
 .python_history
 .vscode
+courses/__pycache__/*
 
 # Static files
 second_text.txt
