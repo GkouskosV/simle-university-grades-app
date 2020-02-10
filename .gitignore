@@ -6,6 +6,7 @@ courses/__pycache__/*
 # Static files
 second_text.txt
 courses/courses.db
+app-env
 
 # Auto generated dirs
 
