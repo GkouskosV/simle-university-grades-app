@@ -1,13 +1,21 @@
 {% extends "layout.html" %}
 {% block content %}
-  <h2>Professor: {{ current_user.name }}</h2>
-  {% for grade in grades %}
-    {{ grade.course.title }}
-    <article class="media content-section">
-      <div class="media-body">
-        <h3><a class="article-title" href="#">{{ grade.user.name}}</a></h3>
-        <p class="article-content">{{ grade.grade }}</p>
-      </div>
-    </article>
-  {% endfor %}
+  <table class="table table-striped table-dark">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Name</th>
+        <th scope="col">Grade</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for grade in grades %}
+        <tr>
+          <th scope="row">{{loop.index}}</th>
+          <td>{{ grade.user.name }}</td>
+          <td>{{ grade.grade }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+  </table>
 {% endblock content %}

@@ -1,18 +1,13 @@
 body {
-    background: #FAFFFB;
-    color: #BBBFBC;
+    background: #FCFBED;
+    color: #707069;
     margin-top: 5rem;
   }
   
   h1, h2, h3, h4, h5, h6 {
-    color: #3E403F;
+    color: #ADACA3;
   }
   
   .bg-steel {
     background-color: #7D807D;
   }
-  
-  .article-title {
-    color: #7D807D;
-  }
-  
