@@ -1,14 +1,14 @@
 {% extends "layout.html" %}
 {% block content %}
-{{ current_user.name }}
+<h1>{{ current_user.name }}</h1>
   {% for grade in grades %}
       <article class="media content-section">
         <div class="media-body">
           <div class="article-metadata">
-            <a class="mr-2" href="#">{{ grade.user.name }}</a>
+
           </div>
           <h2><a class="article-title" href="#">{{ grade.course.title }}</a></h2>
-          <p class="article-content">{{ grade.grade }}</p>
+          <p class="article-content"><h6>{{ grade.grade }}</h6></p>
         </div>
       </article>
   {% endfor %}
