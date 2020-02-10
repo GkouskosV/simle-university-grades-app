@@ -22,29 +22,3 @@ login_manager.login_message_category = 'info'
 
 
 from courses import routes
-
-'''
-    Random Students
-    ================
-    Email: vangelis@gmail.com
-    Password: pass1
-    -----
-    Email: kostas@gmail.com
-    Password: pass4
-    -----
-    Email: stella@gmail.com
-    Password: pass8
-
-    Random Professors
-    ==================
-    Email: georgiou@gmail.com
-    Password: pass2
-    -----
-    Email: sotiriou@gmail.com
-    Password: pass5
-    -----
-    Email: dimitriou@gmail.com
-    Password: pass7 
-
-
-'''
